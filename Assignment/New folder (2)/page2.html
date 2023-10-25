@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMUTNB - ภาควิชาเทคโนโลยีสารสนเทศ</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    body {
+        background-image: url('bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0); /* สีพื้นหลังโปร่งแสง */
+        color: white;
+        padding: 10px 20px;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        margin-right: 20px;
+    }
+    /* เพิ่มพื้นหลังสีดำอ่อนในเนื้อหา */
+    .container {
+        background-color: rgba(0, 0, 0, 0.3); /* สีพื้นหลังสีดำอ่อน */
+        padding: 20px;
+        color: white;
+        border-radius: 5px;
+    }
+        footer {
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+		<h1><a href="index.html" style="text-decoration: none; color: white;">กลับสู่หน้าหลัก KMUTNB</a></h1>
+            <h2>หลักสูตร</h2>
+        </div>
+    </header>
+    <div class="container mt-4">
+        <h2 class="mb-4">หลักสูตรวิทยาศาสตร์บัณฑิต (วท.บ.) สาขาวิชาเทคโนโลยีสารสนเทศ</h2>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="courseDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                เลือกหมวดหมู่ข้อมูล
+            </button>
+            <div class="dropdown-menu" aria-labelledby="courseDropdown">
+                <a class="dropdown-item" href="#">ข้อมูลหลักสูตรวิทยาศาสตรบัณฑิตสำหรับนักเรียน</a>
+                <a class="dropdown-item" href="#">ข้อมูลหลักสูตรวิทยาศาสตรบัณฑิตสำหรับนักศึกษา</a>
+                <a class="dropdown-item" href="#">ข้อมูลหลักสูตรวิทยาศาสตรบัณฑิตสำหรับศิษย์เก่า</a>
+                <a class="dropdown-item" href="#">ข้อมูลหลักสูตรวิทยาศาสตรบัณฑิตสำหรับสถานประกอบการ</a>
+                <a class="dropdown-item" href="#">ข้อมูลหลักสูตรวิทยาศาสตรบัณฑิตสำหรับอาจารย์และผู้บริหาร</a>
+                <a class="dropdown-item" href="#">เล่มหลักสูตรวิทยาศาสตรบัณฑิต (หลักสูตรปรับปรุง พ.ศ. 2562)</a>
+            </div>
+        <h2 class="mb-4">หลักสูตรวิศวกรรมศาสตรบัณฑิต (วศ.บ.) สาขาวิชาวิศวกรรมสารสนเทศและเครือข่าย
+Bachelor of Engineering Program in Information and Network Engineering </h2>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="courseDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                เลือกหมวดหมู่ข้อมูล
+            </button>
+            <div class="dropdown-menu" aria-labelledby="courseDropdown">
+                <a class="dropdown-item" href="#">เล่มหลักสูตรวิศวกรรมศาสตรบัณฑิต INE</a>
+                <a class="dropdown-item" href="#">เล่มหลักสูตรวิศวกรรมศาสตรบัณฑิต INET</a>
+        </div>
+        <h2 class="mb-4">หลักสูตรอุตสาหกรรมศาสตรบัณฑิต (อส.บ.) สาขาวิชาเทคโนโลยีสารสนเทศ   
+Bachelor of Industrial Technology Program in Information Technology (Continuing Program) </h2>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="courseDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                เลือกหมวดหมู่ข้อมูล
+            </button>
+            <div class="dropdown-menu" aria-labelledby="courseDropdown">
+                <a class="dropdown-item" href="#">เล่มหลักสูตรอุตสาหกรรมศาสตรบัณฑิต (ฉบับปรับปรุง พ.ศ. 2566)</a>
+        </div>
+        <!-- Add content for the selected category here -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<footer>
+    <div class="container mt-4">
+        <h2>ติดต่อ</h2>
+        <p>ภาควิชาเทคโนโลยีสารสนเทศ</p>
+        <p>คณะเทคโนโลยีและการจัดการอุตสาหกรรม มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ</p>
+        <p>129 ม. 21 ต.เนินหอม อ.เมือง จ.ปราจีนบุรี 25230</p>
+        <p>E-mail: it@itm.kmutnb.ac.th</p>
+        <p>โทร. 037-217340 ต่อ 7065, 7066</p>
+        <p>มือถือ: 085-2850606</p>
+    </div>
+</footer>
+
+</body>
+</html>
